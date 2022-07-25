@@ -17,6 +17,7 @@ print(thistuple[:4])
 #By leaving out the end value, the range will go on to the end of the list:
 print(thistuple[2:])
 
+
 #updating tuplips
 #Convert the tuple into a list to be able to change it:
 x = ("apple", "banana", "cherry")
@@ -24,6 +25,7 @@ y = list(x)
 y[1] = "kiwi"
 x = tuple(y)
 print(x)
+
 
 #Convert the tuple into a list, add "orange", and convert it back into a tuple:
 thistuple = ("apple", "banana", "cherry")
@@ -40,9 +42,7 @@ print(thistuple)
 
 
 #Unpacking a tuple:
-
 fruits = ("apple", "banana", "cherry")
-
 (green, yellow, red) = fruits
 
 print(green)
